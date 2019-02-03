@@ -1,0 +1,50 @@
+#parallax {
+  padding: 0% 15%;
+	height: 650px;
+}
+
+#definition_container {
+	background-color: rgba(240, 98, 146, .25);
+	height: 100%;
+	padding: 0% 15%;
+	height: 650px;
+}
+
+#definition {
+	text-shadow: 2px 2px #808080;
+}
+
+/*#definition_small {
+	font-size: 40px !important;
+}*/
+
+sup {
+	color: teal;
+}
+
+/*a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+}*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+#hidden {
+  position:fixed;
+	top:0px;
+	width:100%;
+	height:75px;
+	background-color:#DDDDDD;
+	color: #FFFFFF;
+	z-index:9999;
+	display: none;
+}
