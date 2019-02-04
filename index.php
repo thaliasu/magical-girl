@@ -21,14 +21,13 @@
   <nav>
     <div class="nav-wrapper pink lighten-2">
 	  <div class="row container">
-      <a href="home.html" class="brand-logo"><img class="valign-wrapper" src="imgs/ribbon-icon-3.png" alt="ribbon icon"/></a>
+      <a href="#" class="brand-logo"><img class="valign-wrapper" src="imgs/ribbon-icon-3.png" alt="ribbon icon"/></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="analysis.html">Analysis</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
-    <!--unable to float side-nav right or get nav to pop out-->
       <ul class="side-nav" id="mobile-demo">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="analysis.html">Analysis</a></li>
