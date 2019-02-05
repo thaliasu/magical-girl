@@ -10,7 +10,7 @@
 
 
   if(!empty($first_name)&&!empty($last_name)&&!empty($email)&&!empty($textarea1)) {
-    $to = 'thalia989231@knights.ucf.edu';
+    $to = '7c33a0638cf7375ce1d9@cloudmailin.net';
     $subject = 'Contact form submitted.';
     $body = $first_name . " " . $last_name . "\n" . $textarea1;
     $headers = 'From: ' . $email;
