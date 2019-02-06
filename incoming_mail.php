@@ -25,6 +25,7 @@
       $plain = $_POST['plain'];
 
       if ($to == '7c33a0638cf7375ce1d9@cloudmailin.net'){
+        header("Location: contact.php?message=success");
         $_SESSION['success'] = '';
         $_SESSION['user_message'] = 'Thank you, ' .$first_name. '. An email has been sent, and Thalia will get back to you shortly. ';
       }else{
