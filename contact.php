@@ -79,7 +79,7 @@
                       <label for="email" data-error="Please enter a valid email address.">Email</label>
                     </div>
                    <div class="input-field col s12">
-                      <textarea id="textarea1" name="textarea1" class="materialize-textarea" maxlength="300" data-length="300"></textarea>
+                      <textarea id="textarea1" name="plain" class="materialize-textarea" maxlength="300" data-length="300"></textarea>
                       <label for="textarea1">Enter a message here!</label>
                     </div>
                   </div>
@@ -110,7 +110,7 @@
                       <label for="email" data-error="Please enter a valid email address.">Email</label>
                     </div>
                    <div class="input-field col s12">
-                      <textarea id="textarea1" name="textarea1" class="materialize-textarea" maxlength="300" data-length="300"></textarea>
+                      <textarea id="textarea1" name="plain" class="materialize-textarea" maxlength="300" data-length="300"></textarea>
                       <label for="textarea1">Enter a message here!</label>
                     </div>
                   </div>
