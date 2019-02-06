@@ -64,7 +64,7 @@
                 <div class="center-align"><span class="red-text">' . $_SESSION['user_message'] . '</span></div>
                 <!--Form begins-->
                 <div class="col s12">
-                 <form action="validate_form.php" method="POST">
+                 <form action="incoming_mail.php" method="POST">
                    <!--Name, email, message, submit-->
                    <div class="input-field col s6">
                       <input id="first_name" name="first_name" type="text" class="validate" maxlength="25">
@@ -95,7 +95,7 @@
            echo '<h2 class="header center-align">Questions? Comments?</h2>
                <!--Form begins-->
                 <div class="col s12">
-                 <form action="validate_form.php" method="POST">
+                 <form action="incoming_mail.php" method="POST">
                    <!--Name, email, message, submit-->
                    <div class="input-field col s6">
                       <input id="first_name" name="first_name" type="text" class="validate" maxlength="25">
